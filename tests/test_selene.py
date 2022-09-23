@@ -10,4 +10,4 @@ def test_dynamic_steps():
     s('.header-search-input').submit()
     s(by.link_text('snezhanata/qa_python_day_8_allure_report')).click()
     s('#issues-tab').click()
-    s(by.partial_text('don\'t_fade')).should(be.visible)
+    s(by.partial_text('tab doesn\'t open')).should(be.visible)
