@@ -4,6 +4,7 @@ import allure
 from allure_commons.types import Severity
 
 
+
 def test_dynamic_labels():
     allure.dynamic.tag('normal')
     allure.dynamic.severity(Severity.NORMAL)
