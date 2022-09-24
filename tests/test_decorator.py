@@ -14,7 +14,7 @@ from selene.support.shared.jquery_style import s, ss
 @allure.feature('List of issues in the repository')
 @allure.story('Check the name of particular issue')
 @allure.link('https://github.com/snezhanata/qa_python_day_8_allure_report/issues', name='Repository')
-def test_check_issue_by_name_decorator():
+def test_check_issue_by_name():
     open_page()
     search_repository()
     navigation_to_tab()

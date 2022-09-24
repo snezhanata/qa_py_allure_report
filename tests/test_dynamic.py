@@ -8,7 +8,7 @@ from selene.support.shared import browser
 from selene.support.shared.jquery_style import s, ss
 
 
-def test_check_issue_by_name_dynamic():
+def test_check_issue_by_name():
     allure.dynamic.tag('normal')
     allure.dynamic.severity(Severity.NORMAL)
     allure.dynamic.label('owner', 'Snezhana')
